@@ -222,7 +222,7 @@ display: inline;
 
 .fa-linkedin{
   transform: scale(3);
-  padding-right: 10px;
+  padding-right: 15px;
   color: #0077b5;
   text-align: center;
   ;
@@ -232,7 +232,7 @@ display: inline;
 .fa-envelope-square{
   transform: scale(3);
   padding-top: 15px;
-  padding-left: 20px;
+  padding-left: 10px;
 
 }
 
