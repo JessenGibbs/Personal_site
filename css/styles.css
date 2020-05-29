@@ -111,8 +111,8 @@ display: inline;
 }
 
 .skill:hover{
-    /* filter: drop-shadow(0 0 0.75rem #3d403e); */
-    transform: scale(1.2);
+    filter: drop-shadow(0 0 0.75rem #3d403e); 
+   /* transform: scale(1.2);*/
 }
 
 .skill-img{
