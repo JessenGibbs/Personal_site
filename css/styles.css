@@ -91,14 +91,9 @@ hr {
   text-align: left;
   line-height: 2;
   border-radius: 30px;
-
-  background-color: #f0f5f9;
+  border: 3px solid;
+  border-color: #f0f5f9;
   width: 80%;
-}
-
-.skill:hover {
-  filter: drop-shadow(0 0 0.75rem #3d403e);
-  /* transform: scale(1.2);*/
 }
 
 .skill-img {
@@ -246,14 +241,28 @@ hr {
 .values {
   display: flex;
   flex-direction: row;
-  width: 80%;
-  justify-content: center;
+  width: 60%;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: flex-start;
+  margin-left: 20%;
+  margin-bottom: 100px;
 }
 
 .value {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  align-items: center;
+  align-content: center;
   height: 100px;
   width: 400px;
-  border: 1px solid black;
+  border: 3px solid;
+  border-color: #f0f5f9;
   border-radius: 10px;
+}
+
+.a_value {
+  letter-spacing: 0.3rem;
+  color: #1d4579;
 }
